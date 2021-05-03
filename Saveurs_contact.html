@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saveurs_contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/28a5a46f6d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <style>
+        header {
+            background-color: #fcefe7 !important;
+        }
+
+        @media screen and (max-width:767px) {
+            .contact_title {
+                margin-top: 40px;
+                margin-left: 15px;
+            }
+
+            .reservations_title {
+                margin-left: 15px;
+                margin-top: 35px;
+            }
+
+
+
+
+
+
+
+
+
+            /* .row_contact_map {
+                width: 300px;
+                height: 400px;
+                margin: 0 auto;
+                padding: 100px;
+                margin-left: -200px;
+
+            }
+
+            h3 {
+                font-style: italic;
+                font-weight: 400;
+                font-size: 20px;
+                letter-spacing: 0.5em;
+                margin: 20px auto;
+                margin-left: 60px;
+
+
+            }
+
+            .row_contact_text {
+                margin-left: 15px;
+            }
+
+
+
+            .contact_text_phone_email {
+                margin-left: 50px;
+            } */
+
+
+        }
+
+
+
+        @media screen and (min-width: 768px) {
+            h3 {
+                font-style: italic;
+            }
+
+            .container_contact {
+                margin-top: 80px;
+                padding: 0 85px;
+            }
+
+            .contact {
+                font-family: 'Playfair Display', serif;
+                font-weight: 400;
+                font-size: 35px;
+                letter-spacing: 0.5em;
+            }
+
+            .row_contact_text {
+                margin-top: 80px;
+            }
+
+            .contact_text_address {
+                font-family: 'Heebo', sans-serif;
+                font-size: 15px;
+                font-weight: 300;
+                letter-spacing: .05em;
+            }
+
+            .contact_text_phone_email {
+                margin-left: 50px;
+                font-family: 'Heebo', sans-serif;
+                font-size: 15px;
+                font-weight: 300;
+                letter-spacing: .05em;
+            }
+
+            form {
+                padding: 0 85px;
+            }
+
+            .container_contact_form {
+                margin-top: 100px;
+            }
+
+            .comments {
+                font-family: 'Playfair Display', serif;
+                font-weight: 400;
+                font-size: 35px;
+                letter-spacing: 0.5em;
+                padding: 0 85px;
+                margin-bottom: 75px;
+                line-height: 55px;
+            }
+
+            .contact_form_content {
+                padding: 0 350px;
+            }
+
+            .container_reservations {
+                margin-top: 150px;
+            }
+
+            .reservations {
+                font-family: 'Playfair Display', serif;
+                font-weight: 400;
+                font-size: 35px;
+                letter-spacing: 0.5em;
+                padding: 0 85px;
+                margin-bottom: 80px;
+            }
+
+            .row_reservations {
+                padding: 0 350px;
+            }
+
+            .fieldset {
+                border: 0;
+            }
+
+            .container_footer {
+                margin-top: 150px;
+                padding: 0 85px;
+                background: #F5F7F8;
+                width: 100%;
+                height: 100px;
+            }
+
+            .row_footer_text {
+                padding-top: 55px;
+            }
+
+            .fab {
+                font-size: 1.5em;
+                margin-top: 4.5px;
+                margin-left: 15px;
+            }
+
+            .symbol {
+                color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <ul class="nav nav-tabs pt-3">
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="./Saveurs_home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="./Saveurs_about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="./Saveurs_menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./Saveurs_contact.html">Contact</a>
+            </li>
+        </ul>
+    </header>
+
+
+    <div class="container_contact d-none d-sm-block">
+        <h3 class="contact">CONTACT <br> US</h3>
+        <div class="contact_centent d-flex justify-content-around flex-column flex-sm-row">
+            <div class="row_contact_text d-flex flex-column flex-sm-row col-12 col-sm-6">
+                <div class="contact_text_address col-12 col-sm-6">
+                    <p>Address: <br>
+                        1F., No. 14, Ln. 219, Sec. 1,<br>
+                        Fuxing S. Rd., Da’an Dist., <br>
+                        Taipei City 106, <br>
+                        Taiwan (R.O.C.) <br>
+                    </p>
+                </div>
+                <div class="contact_text_phone_email col-12 col-sm-6">
+                    <p>Phone: <br>
+                        02-27510185</p>
+                    <p>E-mail: <br>
+                        saveurs.tw@gmail.com</p>
+                </div>
+            </div>
+            <div class="row_contact_map d-none d-sm-block" style="width: 500px;height: 400px;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.8562240303595!2d121.54252641500626!3d25.038952883970026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abd11d9b1c55%3A0xe8a9ccbbb2102a76!2zU2F2ZXVyc-atkOa0sumiqOWRs-mkkOWdig!5e0!3m2!1szh-TW!2stw!4v1615262124223!5m2!1szh-TW!2stw"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Mobile -->
+    <div class="container d-block d-sm-none">
+        <h4 class="contact_title"
+            style="font-family: 'Playfair Display', serif; font-style: italic;letter-spacing: 0.5em;">
+            CONTACT US</h4>
+        <div class="contact_text" style="font-family: 'Heebo', sans-serif;padding: 0 72px;
+        margin-top: 28px;">
+            <p>Address: <br>
+                1F., No. 14, Ln. 219, Sec. 1, Fuxing S. Rd., Da’an Dist.,
+                Taipei City 106, Taiwan (R.O.C.) <br>
+            </p>
+
+            <p>Phone: 02-27510185</p>
+
+            <p>E-mail: saveurs.tw@gmail.com</p>
+        </div>
+
+        <div class="contact_map" style="width: 280px;height: 250px;margin: 25px auto;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.8562240303595!2d121.54252641500626!3d25.038952883970026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abd11d9b1c55%3A0xe8a9ccbbb2102a76!2zU2F2ZXVyc-atkOa0sumiqOWRs-mkkOWdig!5e0!3m2!1szh-TW!2stw!4v1615608255110!5m2!1szh-TW!2stw"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+
+
+    <!-- Computer -->
+    <div class="container_contact_form d-none d-sm-block">
+        <h3 class="comments">LEAVE YOUR <br> COMMENTS</h3>
+        <form class="contact_form_content" style="font-family: 'Heebo', sans-serif;">
+            <div class="mb-3">
+                <label for="exampleInputName1" class="form-label">Name <span class="symbol">*</span></label>
+                <input type="name" class="form-control" id="exampleInputName1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPhonenumber1" class="form-label">Phone number <span
+                        class="symbol">*</span></label>
+                <input type="phonenumber" class="form-control" id="exampleInputPhonenumber1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">Files </label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+                <div id="fileHelp" class="form-text">Share your photos with us and we will post them on our social
+                    media.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message / Comments</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mt-5">
+                <button type="submit" class="btn btn-outline-secondary">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Mobile -->
+    <div class="container d-block d-sm-none">
+        <h4 class="comments_title"
+            style="font-family: 'Playfair Display', serif; font-style: italic;letter-spacing: 0.25em;text-align: center;margin-top: 40px;">
+            LEAVE YOUR COMMENTS</h4>
+
+        <form class="contact_form_content" style="font-family: 'Heebo', sans-serif;padding: 30px 50px;">
+            <div class="mb-3">
+                <label for="exampleInputName1" class="form-label">Name <span class="symbol">*</span></label>
+                <input type="name" class="form-control" id="exampleInputName1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPhonenumber1" class="form-label">Phone number <span
+                        class="symbol">*</span></label>
+                <input type="phonenumber" class="form-control" id="exampleInputPhonenumber1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">Files </label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+                <div id="fileHelp" class="form-text">Share your photos with us and we will post them on our social
+                    media.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message / Comments</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mt-5">
+                <button type="submit" class="btn btn-outline-secondary">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+    <!-- Computer -->
+    <div class="container_reservations d-none d-sm-block" id="reservation">
+        <h3 class="reservations">RESERVATIONS</h3>
+        <div class="row_reservations">
+            <div class="row_reservations_img"></div>
+            <div class="row_reservations_form" style="font-family: 'Heebo', sans-serif;">
+                <div class="mb-3">
+                    <label for="exampleInputName1" class="form-label">Name <span class="symbol">*</span></label>
+                    <input type="name" class="form-control" id="exampleInputName1" style="width: 30%;">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPhonenumber1" class="form-label">Phone number <span
+                            class="symbol">*</span></label>
+                    <input type="phonenumber" class="form-control" id="exampleInputPhonenumber1" style="width: 30%;">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        style="width: 70%;">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <fieldset class="fieldset">
+                        <label for="number">Number of Attendees <span class="symbol">*</span></label> <br>
+                        <select name="number" id="number" class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option selected="selected">3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                    </fieldset>
+                </div>
+                <div class="mb-3">
+                    <p>Date <span class="symbol">*</span></p>
+                    <input class="form-control" type="text" id="datepicker" style="width: 30%;">
+                </div>
+                <div class="mb-3">
+                    <fieldset class="fieldset">
+                        <label for="time">Time <span class="symbol">*</span></label> <br>
+                        <select name="time" id="time" class="form-control" style="width: 30%;">
+                            <option>11:00 am</option>
+                            <option>11:30 am</option>
+                            <option selected="selected">12:00 pm</option>
+                            <option>12:30 pm</option>
+                            <option>6:00 pm</option>
+                            <option>6:30 pm</option>
+                            <option>7:00 pm</option>
+                            <option>7:30 pm</option>
+                        </select>
+                    </fieldset>
+                </div>
+                <div class="mt-5">
+                    <button type="submit" class="btn btn-outline-secondary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Mobile  -->
+    <div class="container d-block d-sm-none">
+        <h4 class="reservations_title"
+            style="font-family: 'Playfair Display', serif; font-style: italic;letter-spacing: 0.5em;">
+            RESERVATIONS</h4>
+        <div class="row_reservations_form" style="font-family: 'Heebo', sans-serif;padding: 30px 50px;">
+            <div class="mb-3">
+                <label for="exampleInputName1" class="form-label">Name <span class="symbol">*</span></label>
+                <input type="name" class="form-control" id="exampleInputName1" style="width: 100%;">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPhonenumber1" class="form-label">Phone number <span
+                        class="symbol">*</span></label>
+                <input type="phonenumber" class="form-control" id="exampleInputPhonenumber1" style="width: 100%;">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    style="width: 100%;">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <fieldset class="fieldset">
+                    <label for="number">Number of Attendees <span class="symbol">*</span></label> <br>
+                    <select name="number" id="number" class="form-control" style="width: 100%;">
+                        <option>1</option>
+                        <option>2</option>
+                        <option selected="selected">3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                </fieldset>
+            </div>
+            <div class="mb-3">
+                <p>Date <span class="symbol">*</span></p>
+                <input class="form-control" type="text" id="datepicker" style="width: 100%;">
+            </div>
+            <div class="mb-3">
+                <fieldset class="fieldset">
+                    <label for="time">Time <span class="symbol">*</span></label> <br>
+                    <select name="time" id="time" class="form-control" style="width: 100%;">
+                        <option>11:00 am</option>
+                        <option>11:30 am</option>
+                        <option selected="selected">12:00 pm</option>
+                        <option>12:30 pm</option>
+                        <option>6:00 pm</option>
+                        <option>6:30 pm</option>
+                        <option>7:00 pm</option>
+                        <option>7:30 pm</option>
+                    </select>
+                </fieldset>
+            </div>
+            <div class="mt-5">
+                <button type="submit" class="btn btn-outline-secondary">Submit</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Computer  -->
+    <div class="container_footer d-none d-sm-block">
+        <div class="row_footer_text d-flex justify-content-between">
+            <div class="item_footer_rights">
+                <p>© 2021 Saveurs Inc., All Rights Reserved</p>
+            </div>
+            <div class="item_footer_socialmedia">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="item_footer_privacy d-flex">
+                <button class="border-0 bg-transparent">Terms of Use</button>
+                <button class="border-0 bg-transparent">Privacy</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Mobile  -->
+    <div class="container_footer_mobile d-block d-sm-none" style="margin-top: 50px;">
+        <div class="footer d-flex" style="background-color: #F5F7F8;width: 100%;">
+            <div class="item_footer_rights" style="padding: 20px 0 20px 20px; font-size: 12px;padding-bottom: -20px;">
+                <p style="padding-top: 13px;">© 2021 Saveurs Inc., All Rights Reserved</p>
+            </div>
+            <div class="item_footer_privacy d-flex" style="padding: 20px 0 20px 20px;font-size: 12px;">
+                <button class="border-0 bg-transparent">Terms of Use</button>
+                <button class="border-0 bg-transparent">Privacy</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.5.1.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- 上面兩行是jQueary UI 的src -->
+
+    <script>
+        $(function () {
+            $("#number")
+                .selectmenu()
+                .selectmenu("menuWidget")
+                .addClass("overflow");
+
+        });
+
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+
+
+    </script>
+</body>
+
+</html>
